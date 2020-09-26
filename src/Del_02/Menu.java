@@ -262,7 +262,8 @@ public class Menu {
 
                 int i;
                 // Sorterar poängen med for-loop utan kropp
-                for (i = 0; i < scoreBoard.size() && p.getScore() < scoreBoard.get(i).getScore(); i++);
+                for (i = 0; i < scoreBoard.size() && p.getScore() < scoreBoard.get(i).getScore(); i++)
+                    ;
 
                 scoreBoard.add(i, p);
             }
